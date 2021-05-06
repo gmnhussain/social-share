@@ -28,7 +28,7 @@ document.querySelector('#btn3').addEventListener('click', function() {
 	if (navigator.share) {
 		navigator.share({
 			title: 'Title 3',
-			url: 'sub-folder/sub-folder'
+			url: `sub-folder/sub-folder`
 		})
 	}
 	else {
